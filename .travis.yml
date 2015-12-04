@@ -3,4 +3,6 @@ nstall:
 - \curl -sSL https://get.rvm.io | bash 
 - rvm install 2.1
 - rvm use 2.1
-script: "cd ./src/test && ruby test_bot.rb"
+script: 
+- "rvm use 2.1"
+- "cd ./src/test && ruby test_bot.rb"
