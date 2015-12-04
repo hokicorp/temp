@@ -5,6 +5,8 @@
 language: ruby
 rvm:
   - '2.2'
+gemfile:
+  - ./src/Gemfile
 script: 
   - "ruby ./src/test/test_bot.rb"
 
