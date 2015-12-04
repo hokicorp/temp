@@ -1,5 +1,5 @@
 require 'test/unit'
-require '../bot'
+require_relative '../bot'
 
 class TC_Bot < Test::Unit::TestCase
   def setup

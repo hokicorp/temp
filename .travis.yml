@@ -1,4 +1,4 @@
 script: 
 - "rvm use 2.1"
 - "ruby ./src/test/test_bot.rb"
-- "python /src/test/test_py.py"
+- "python ./src/test/test_py.py"
