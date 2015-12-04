@@ -1,6 +1,12 @@
+#script: 
+#- "rvm use 2.1"
+#- "ruby ./src/test/test_bot.rb"
+#- "python ./src/test/test_py.py"
+language: ruby
+rvm:
+  - '2.2'
 script: 
-- "rvm use 2.1"
-- "ruby ./src/test/test_bot.rb"
-- "python ./src/test/test_py.py"
+  - "ruby ./src/test/test_bot.rb"
+
 notifications:
   slack: hokichaio:LAFcc5sQNEcjxUcH800VS8Zz
