@@ -8,7 +8,7 @@ rvm:
 gemfile:
   - ./src/Gemfile
 script: 
-  - "ruby ./src/test/test_bot.rb"
+  - "bundle exec ruby ./src/test/test_bot.rb"
 
 notifications:
   slack: hokichaio:LAFcc5sQNEcjxUcH800VS8Zz
