@@ -5,8 +5,8 @@
 language: ruby
 rvm:
   - '2.2'
-gemfile:
-  - ./src/Gemfile
+install:
+  - "cd ./src/Gemfile && bundle install"
 script: 
   - "bundle exec ruby ./src/test/test_bot.rb"
 
