@@ -6,9 +6,9 @@ language: ruby
 rvm:
   - '2.2'
 install:
-  - "cd ./src/Gemfile && bundle install"
+  - "export BUNDLE_GEMFILE=./src/Gemfile && bundle install"
 script: 
-  - "bundle exec ruby ./src/test/test_bot.rb"
+  - "export BUNDLE_GEMFILE=./src/Gemfile && bundle exec ruby ./src/test/test_bot.rb"
 
 notifications:
   slack: hokichaio:LAFcc5sQNEcjxUcH800VS8Zz
